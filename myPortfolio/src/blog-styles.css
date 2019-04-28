@@ -1,0 +1,38 @@
+h1 {
+    color: rgb(85, 30, 85);
+    width: 6%;
+    margin: 5% auto;
+}
+
+
+main {
+    width: 60%;
+    margin: 5% auto;
+    background: rgba(245, 245, 245, 0.39);
+}
+
+article {
+    margin: 1% auto;
+    border: solid pink 2px;
+    width: 60%;
+    background: white;
+}
+
+article > h3 {
+    font-size: 1em;
+}
+
+article:hover {
+    background: grey;
+}
+
+article:hover > h3 {
+    color: aqua;
+}
+
+footer {
+    margin: 1% auto;
+    border: solid gray 2px;
+    width: 60%;
+    background: wheat;
+}
